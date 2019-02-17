@@ -48,10 +48,11 @@ Polli
 ####[Link](https://www.youtube.com/watch?v=ReqAQ463QmY)
 
 ##Snapshots
-![Fig.1] (http://d.pr/i/mTuUeq)
-![Fig.2] (http://d.pr/i/S62gkz)
-![Fig.3] (http://d.pr/i/9YqeYT)
-![Fig.4] (http://d.pr/i/Way2j2)
-![Fig.5] (http://d.pr/i/kcssjt)
-![Fig.6] (http://d.pr/i/ZlaQEY)
+![Fig.1] (https://d.pr/i/tbkyk3)
+![Fig.2] (https://d.pr/i/bSZV1A)
+![Fig.3] (https://d.pr/i/UvY9uy)
+![Fig.4] (https://d.pr/i/miXcoH)
+![Fig.5] (https://d.pr/i/2DPheo)
+![Fig.6] (https://d.pr/i/YHq1mO)
+
 
