@@ -26,10 +26,10 @@ for election in elections:
 
     positions = []
     for comment in df.comment:
-        print(comment)
+        # print(comment)
 
         pos, conf = s_mod.sentiment(comment)
-        print(pos, conf)
+        # print(pos, conf)
 
         positions += [coefficient[pos] * conf]
 

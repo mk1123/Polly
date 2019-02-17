@@ -21,7 +21,7 @@ class VoteClassifier(ClassifierI):
             votes.append(v)
 
         mode_votes = mode(votes)
-        print('{}: {}'.format(mode_votes, features))
+        # print('{}: {}'.format(mode_votes, features))
         return mode_votes
 
     def confidence(self, features):
