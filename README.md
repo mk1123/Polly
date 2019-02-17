@@ -39,7 +39,7 @@ Polli
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The next step for Polli would be to implement a more interactive dynamic design for the front-end development of the web application. In addition, we would want to expand the magnitude of our training dataset in terms of time serialization to perhaps more than 30 years back (1990s) to better understand the trend of the American electoral system and amplify the power of Polli to analyze opinions of various politicians.
 
 ##Built With
-####GCP •	CoreML •	Swift •	Python •	Microsoft Custom Visioon •	Keras •	Tensorflow
+####GCP •	Dialogflow •	Flask •	Python •	Wix Code •	ngrok •	Tensorflow • Adobe Illustrator • Beautiful Soup
 
 ##Try it out
 ####[GitHub Repo](https://github.com/mk1123/Polly)
