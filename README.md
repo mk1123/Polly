@@ -54,5 +54,3 @@ Polli
 ![Fig.4] (https://d.pr/i/miXcoH)
 ![Fig.5] (https://d.pr/i/2DPheo)
 ![Fig.6] (https://d.pr/i/YHq1mO)
-
-
