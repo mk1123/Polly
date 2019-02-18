@@ -21,23 +21,23 @@ print(s_mod.sentiment(neg_ex))
 elections = ['presidential', 'house', 'senate', 'gov']
 coefficient = {'pos': 1, 'neg': -1}
 
-for election in elections:
-    df = pd.read_csv('../data/{}.csv'.format(election))
 
-    positions = []
-    for comment in df.comment:
-        # print(comment)
+df = pd.read_csv('../data/{}.csv'.format(elections[2]))
 
-        pos, conf = s_mod.sentiment(comment)
-        # print(pos, conf)
+positions = []
+for comment in df.comment:
+    # print(comment)
 
-        positions += [coefficient[pos] * conf]
+    pos, conf = s_mod.sentiment(comment)
+    # print(pos, conf)
 
-    df['position'] = pd.Series(positions)
+    positions += [coefficient[pos] * conf]
 
-    print(df.head())
-    df.to_csv('../data/{}_labeled.csv'.format(election), index=False)
-    df.to_json('../data/{}_labeled.json'.format(election), orient='records')
+df['position'] = pd.Series(positions)
+
+print(df.head())
+df.to_csv('../data/{}_labeled.csv'.format(election), index=False)
+df.to_json('../data/{}_labeled.json'.format(election), orient='records')
 
 
 
