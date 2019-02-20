@@ -21,14 +21,15 @@ print(s_mod.sentiment(neg_ex))
 elections = ['presidential', 'house', 'senate', 'gov']
 coefficient = {'pos': 1, 'neg': -1}
 
+election = elections[2]
 
-df = pd.read_csv('../data/{}.csv'.format(elections[2]))
+df = pd.read_csv('../data/{}.csv'.format(election))
 
 positions = []
 for comment in df.comment:
     # print(comment)
 
-    pos, conf = s_mod.sentiment(comment)
+    pos, conf = s_mod.sentiment(str(comment))
     # print(pos, conf)
 
     positions += [coefficient[pos] * conf]
